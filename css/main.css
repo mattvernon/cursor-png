@@ -1,3 +1,15 @@
+/* ====== FONTS ========= */
+
+@font-face {
+  font-family: "monlight";
+  src: url("../fonts/Montserrat-Light.woff");
+}
+
+@font-face {
+  font-family: "monulight";
+  src: url("../fonts/Montserrat-UltraLight.woff");
+}
+
 /* ====== LAYOUT STYLES ========= */
 
 .container {
@@ -12,3 +24,9 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+h1 {
+  font-family: "monlight";
+}
+
+/* ====== TYPOGRAPHY ========= */
