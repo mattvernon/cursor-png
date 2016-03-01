@@ -2,11 +2,13 @@
 
 @font-face {
   font-family: "mon-light";
+  src: url("../fonts/Montserrat-Light.woff2");
   src: url("../fonts/Montserrat-Light.woff");
 }
 
 @font-face {
   font-family: "mon-u-light";
+  src: url("../fonts/Montserrat-UltraLight.woff2");
   src: url("../fonts/Montserrat-UltraLight.woff");
 }
 
@@ -30,7 +32,8 @@
 
 h1 {
   font-family: "mon-u-light";
-  letter-spacing: -0.5;
+  font-weight: "light";
+  letter-spacing: -0.8px;
   font-size: 36px;
   line-height: 43px;
   width: 430px;
