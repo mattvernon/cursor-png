@@ -50,6 +50,11 @@ p {
   margin-top: 20px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 /* ====== OTHER STYLES ========= */
 
@@ -87,7 +92,7 @@ body {
   text-transform: uppercase;
   border-radius: 3px;
   display: inline-block;
-  margin-top: 170px;
+  margin-top: 80px;
   transition: all 0.5s;
 }
 
@@ -95,4 +100,43 @@ body {
   background-color: white;
   color: black;
   transition: all 0.5s;
+}
+
+/* ======= PILL TAB BAR THING ============ */
+
+.non-retina, .retina {
+  display: inline-block;
+  font-family: "mon-light";
+  font-size: 8px;
+  padding: 0px 25px;
+}
+
+.non-retina {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.retina {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.not-active {
+  background-color: white;
+  border: none;
+  transition: all 0.2s;
+}
+
+.not-active:hover {
+  background-color: #191919;
+  color: white;
+}
+
+.tab-bar {
+  margin-top: 30px;
 }
